@@ -31,7 +31,7 @@ We use the ability of Bloom filters to remember if it has been shown a value wit
 3. Transfer the data for A to the matching server with your id N.
 4. The server stores it.
 5. Create an empty Bloom Filter (B)
-6. Iterate the known IDs on the server, format each number and insert it into B
+6. Iterate the known IDs on the server, format each number and insert it into B if it's contained in A
 7. The server returns B to the client.
 8. Iterate the address book and see if it is contained in B.
 9. Items in the address book and B are probably matches!
