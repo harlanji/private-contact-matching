@@ -3,7 +3,7 @@
 //  sample
 //
 //  Created by Harlan on 3/14/17.
-//  Copyright © 2017 clojure-objc. All rights reserved.
+//  Copyright © 2017 Harlan Iverson. All rights reserved.
 //
 
 
